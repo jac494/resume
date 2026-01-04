@@ -8,7 +8,7 @@
 
 ## Summary
 
-Staff-level Site Reliability Engineer and Platform Owner with 9+ years of experience designing, operating, and evolving reliability-critical systems across payments, large-scale infrastructure, and enterprise platforms. Strong focus on **observability, build and deploy platforms, GitOps workflows, and developer experience**, with a track record of reducing operational toil, improving recovery from failure, and enabling teams to ship safely at scale. Known for bridging modern SRE practices into complex organizations while remaining deeply hands-on with systems and code.
+Site Reliability Engineer and Platform Owner with 9+ years of experience designing, operating, and evolving reliability-critical systems across payments, large-scale infrastructure, and enterprise platforms. Strong focus on **observability, build and deploy platforms, GitOps workflows, and developer experience**, with a track record of reducing operational toil, improving recovery from failure, and enabling teams to ship safely at scale. Known for bridging modern SRE practices into complex organizations while remaining deeply hands-on with systems and code.
 
 ### Core Focus Areas
 

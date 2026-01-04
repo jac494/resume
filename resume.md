@@ -83,16 +83,16 @@ Site Reliability Engineer focused on automation and reliability of Dropbox’s b
 
 - Built internal automation services that reduced network configuration time from hours to minutes  
 - Developed monitoring and analysis tooling that revealed latent faults in ~10% of remote sites, enabling proactive remediation  
-- Reduced mean time to repair on provider circuits by **50%+** through standardized drain/undrain procedures and automated monitoring  
+- Reduced mean time to repair on provider circuits by 50%+ through standardized drain/undrain procedures and automated monitoring  
 - Led design and deployment of high-availability network architectures supporting new business initiatives  
-- Modernized Linux service management by migrating legacy init systems across **30,000+ production systems**
+- Modernized Linux service management by migrating legacy init systems across 30,000+ production systems
 
 **Technologies:** Python, SQL, Linux, Cisco, BGP, MongoDB, Bash
 
 ### Earlier Experience (Condensed)
 
-**Systems Engineer** – Computers & Networks, Inc.  
-**Network Engineer** – Premier Satellite & Internet  
+- **Systems Engineer** – Computers & Networks, Inc.  
+- **Network Engineer** – Premier Satellite & Internet  
 
 Enterprise IT, ISP operations, network design, monitoring, and Linux infrastructure.
 

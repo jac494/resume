@@ -1,5 +1,8 @@
 name: Build Resume PDF
 
+env:
+  OUTPUT_PDF: Drew_Conner_SRE_Resume.pdf
+
 on:
   push:
     branches: [ "main" ]
@@ -39,17 +42,17 @@ jobs:
             --to=html \
             --css=resume.css \
             --pdf-engine=weasyprint \
-            -o resume.pdf
+            -o "${{ env.OUTPUT_PDF }}"
 
       - name: Upload resume artifact
         uses: actions/upload-artifact@v4
         with:
-          name: Drew-Conner-SRE-Resume-pdf
-          path: Drew_Conner_SRE_Resume.pdf
+          name: resume-pdf
+          path: "${{ env.OUTPUT_PDF }}"
 
       - name: Create GitHub Release (tags only)
         if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v2
         with:
-          files: Drew_Conner_SRE_Resume.pdf
+          files: "${{ env.OUTPUT_PDF }}"
       

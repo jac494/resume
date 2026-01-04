@@ -2,6 +2,8 @@
 % Site Reliability Engineer | Platform Owner
 % Memphis, TN • Remote-friendly
 
+*Source: <https://github.com/jac494/resume>*
+
 ---
 
 ## Summary
@@ -95,6 +97,8 @@ Site Reliability Engineer focused on automation and reliability of Dropbox’s b
 - **Network Engineer** – Premier Satellite & Internet  
 
 Enterprise IT, ISP operations, network design, monitoring, and Linux infrastructure.
+
+---
 
 ## Education
 

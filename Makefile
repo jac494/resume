@@ -1,4 +1,4 @@
-PDF=resume.pdf
+PDF=Drew_Conner_SRE_Resume.pdf
 
 all: $(PDF)
 

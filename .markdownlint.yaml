@@ -1,0 +1,3 @@
+MD013: false   # Line length (resumes break this constantly)
+MD033: false   # Inline HTML (Pandoc-friendly)
+MD041: false   # First line heading (Pandoc metadata)

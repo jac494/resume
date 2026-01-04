@@ -1,0 +1,55 @@
+name: Build Resume PDF
+
+on:
+  push:
+    branches: [ "main" ]
+    tags: ["v*"]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Pandoc + WeasyPrint deps
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc \
+            libcairo2 libpango-1.0-0 libpangocairo-1.0-0 \
+            libgdk-pixbuf2.0-0 libffi-dev shared-mime-info
+
+      - name: Install WeasyPrint
+        run: |
+          python -m pip install --upgrade pip
+          pip install weasyprint
+
+      - name: Build PDF
+        run: |
+          pandoc resume.md \
+            --metadata-file=metadata.yaml \
+            --from=markdown \
+            --to=html \
+            --css=resume.css \
+            --pdf-engine=weasyprint \
+            -o resume.pdf
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: resume-pdf
+          path: resume.pdf
+
+      - name: Create GitHub Release (tags only)
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: resume.pdf
+      

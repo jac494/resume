@@ -14,7 +14,7 @@ Site Reliability Engineer and Platform Owner with 9+ years of experience designi
 
 - Observability platforms and service visibility (metrics, logs, alerting)
 - Build, deploy, and delivery platforms (CI/CD, GitOps, IaC)
-- Reliability engineering, incident response, and DR automation
+- Reliability engineering, Service-Level Objectives (SLOs), incident response, and DR automation
 - Developer experience and reduction of operational toil
 - Distributed systems and data-intensive workloads
 
@@ -22,7 +22,7 @@ Site Reliability Engineer and Platform Owner with 9+ years of experience designi
 
 **Languages:** Python, Go, C++, Bash  
 **Distributed Systems:** gRPC, Thrift, async services, microservices  
-**Observability:** Grafana, Scuba, metrics & alerting design  
+**Observability:** OpenTelemetry, Grafana, Scuba, metrics & alerting design  
 **Platforms & IaC:** Terraform, Ansible, Chef, Docker, Kubernetes, OpenShift, Helm, Argo  
 **Data:** MySQL, MongoDB, Spark, SQL  
 **Cloud & Infra:** AWS, Linux, networking (BGP, OSPF), PKI  

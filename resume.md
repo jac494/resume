@@ -12,7 +12,7 @@ Site Reliability Engineer and Platform Owner with 9+ years of experience designi
 
 ### Core Focus Areas
 
-- Observability platforms and service visibility (metrics, logs, alerting)
+- Observability platforms and service visibility (metrics, logs, traces, alerting)
 - Build, deploy, and delivery platforms (CI/CD, GitOps, IaC)
 - Reliability engineering, Service-Level Objectives (SLOs), incident response, and DR automation
 - Developer experience and reduction of operational toil

@@ -1,5 +1,6 @@
 % James Andrew Conner
 % Site Reliability Engineer | Platform Owner
+% <jac494@gmail.com> | <https://linkedin.com/in/james-a-conner>
 % Memphis, TN • Remote-friendly
 
 *Source: <https://github.com/jac494/resume>*
@@ -20,13 +21,13 @@ Site Reliability Engineer and Platform Owner with 9+ years of experience designi
 
 ### Technical Skills
 
-**Languages:** Python, Go, C++, Bash  
-**Distributed Systems:** gRPC, Thrift, async services, microservices  
-**Observability:** OpenTelemetry, Grafana, Scuba, metrics & alerting design  
-**Platforms & IaC:** Terraform, Ansible, Chef, Docker, Kubernetes, OpenShift, Helm, Argo  
-**Data:** MySQL, MongoDB, Spark, SQL  
-**Cloud & Infra:** AWS, Linux, networking (BGP, OSPF), PKI  
-**Delivery Tooling:** Jenkins, Bitbucket, Artifactory  
+**Languages:** Python, Go, C++, Bash
+**Distributed Systems:** gRPC, Thrift, async services, microservices
+**Observability:** OpenTelemetry, Grafana, Scuba, metrics & alerting design
+**Platforms & IaC:** Terraform, Ansible, Chef, Docker, Kubernetes, OpenShift, Helm, Argo
+**Data:** MySQL, MongoDB, Spark, SQL
+**Cloud & Infra:** AWS, Linux, networking (BGP, OSPF), PKI
+**Delivery Tooling:** Jenkins, Git (Bitbucket), Artifactory
 
 ---
 

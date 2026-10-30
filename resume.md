@@ -1,5 +1,5 @@
 % James Andrew Conner
-% Site Reliability Engineer | Platform Owner
+% Production Engineer | Platform Owner
 % <jac494@gmail.com> | <https://linkedin.com/in/james-a-conner>
 % Memphis, TN • Remote-friendly
 
@@ -9,7 +9,7 @@
 
 ## Summary
 
-Site Reliability Engineer and Platform Owner with 9+ years of experience designing, operating, and evolving reliability-critical systems across payments, large-scale infrastructure, and enterprise platforms. Strong focus on **observability, build and deploy platforms, GitOps workflows, and developer experience**, with a track record of reducing operational toil, improving recovery from failure, and enabling teams to ship safely at scale. Known for bridging modern SRE practices into complex organizations while remaining deeply hands-on with systems and code.
+Production Engineer and Platform Owner with 9+ years of experience designing, operating, and evolving reliability-critical systems across payments, large-scale infrastructure, and enterprise platforms. Strong focus on **observability, build and deploy platforms, GitOps workflows, and developer experience**, with a track record of reducing operational toil, improving recovery from failure, and enabling teams to ship safely at scale. Known for bridging modern PE practices into complex organizations while remaining deeply hands-on with systems and code.
 
 ### Core Focus Areas
 
@@ -40,13 +40,13 @@ Site Reliability Engineer and Platform Owner with 9+ years of experience designi
 
 Platform owner responsible for guiding the technical direction and delivery of automation and application delivery platforms supporting infrastructure and application teams across on-premise and cloud environments.
 
-- Own the technical roadmap for **configuration-as-code, observability, build and deploy, and infrastructure security platforms**, balancing platform stability with long-term modernization  
+- Own the technical roadmap for **configuration-as-code, observability, build and deploy, platform-as-a-service, eventing, and infrastructure security platforms**, balancing platform stability with long-term modernization  
 - Partner closely with infrastructure, security, and application teams to introduce **GitOps-style workflows, OpenShift-based deployment patterns, and automated delivery pipelines**  
 - Serve as a technical escalation point for complex issues involving PKI, middleware, and deployment automation  
-- Translate SRE principles into operations-focused teams by moving from one-off support to governed, automated workflows that scale.
+- Translate Production Engineering principles into operations-focused teams by moving from one-off support to governed, automated workflows that scale.
 - Shape platform priorities to reduce cognitive load on engineers while increasing reuse and consistency across teams  
 
-**Technologies:** Ansible, OpenShift, AppViewX/PKI, DataPower, Jenkins, Argo, Helm, Bitbucket, Artifactory
+**Technologies:** Ansible, OpenShift, AppViewX/PKI, DataPower, Jenkins, Argo, Helm, Bitbucket, Artifactory, OpenTelemetry
 
 ### Meta (Facebook)  
 
